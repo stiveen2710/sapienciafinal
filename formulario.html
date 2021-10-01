@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Sirve para el favicon-->
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc7y5LnRQu1Cjm5Wy3mpou7_2ewywVNp3FQA&usU"
+    type="image/x-icon">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="css/formulario.css">
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <header class="header">
+      <div class="container logo_nav_container"></a>
+          <a href="index.html"><img class="img_logo"
+                  src="https://icons.iconarchive.com/icons/aha-soft/free-global-security/256/Global-Network-icon.png"
+                  class="logo">
+          </a>
+          <nav class="nav">
+              <ul>
+                  <li><a href="index.html">Inicio</a>
+                  <li><a href="formulario.html">Formulario de Informacion</a></li>
+                  <li><a href="galeria.html">Galeria</a></li>
+                  <li><a href="#">Interes</a></li>
+                  <li><a href="#">Unete</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  <main class="container main">
+    <p>Su opinion es muy importante para nosotros por eso te invictamos a diligenciar el siguiente formulario.</p>
+    <h1 class="container">Formulario</h1>
+  </main>
+  <div>
+    <form>
+      <fieldset class="container">
+        <div>
+          <label><b>Identificacion:<br> <input type="number" name="nombre" size="40" required
+                placeholder="Escriba su identificacion"></b></label>
+        </div>
+        <br>
+        <div>
+          <label><b> Nombre: <br> <input type="text" name="nombre" size="40"
+                placeholder="Escriba sus nombres"></b></label>
+        </div>
+        <br>
+        <div>
+          <label><b>Apellidos: <br><input type="text" name="nombre" size="40"
+                placeholder="Escriba sus apellidos"></b></label>
+        </div>
+        <br>
+        <div>
+          <label><b>Fecha de nacimiento: <br><input type="date" name="fecha"></b></label>
+        </div>
+        <br>
+        <div>
+          <label><b>Hora de Nacimiento: <br><input type="time" name="color" id=""></b></label>
+        </div>
+        <br>
+        <div>
+          <label><b>Edad: <br><input type="number" name="nombre" size="40" placeholder="Escriba su edad"></b></label>
+        </div>
+        <br>
+        <div>
+          <label><b>Correo: <br><input type="email" name="correo" size="40" placeholder="Escriba su correo"></label>
+        </div>
+        <br>
+        <div>
+          <label><b>Tipo de vivienda:<br></b></label>
+          <label><input type="checkbox" name="propia"> Propia</label>
+          <label><input type="checkbox" name="arrendada"> Arrendada</label>
+          <label><input type="checkbox" name="familiar"> Familiar</label>
+        </div>
+        <br>
+        <div>
+          <label<b>Pais de nacimiento:<br></b></label>
+            <select name="pais">
+              <option value="Elegir" id="AF">Elegir pais</option>
+              <option value="Argentina" id="AR">Argentina</option>
+              <option value="Bolivia" id="BO">Bolivia</option>
+              <option value="Brasil" id="BR">Brasil</option>
+              <option value="Colombia" id="CO">Colombia</option>
+              <option value="Chile" id="CH">Chile</option>
+              <option value="Peru" id="PE">Peru</option>
+              <option value="Uruguay" id="UR">Uruguay</option>
+              <option value="Venezuela" id="VE">Venezuela</option>
+            </select>
+        </div>
+        <br>
+        <div>
+          <label><b>Departamento de nacimiento:<br></b></label>
+          <select name="departamento">
+            <option value="Elegir" id="AF">Elegir Departamento</option>
+            <option value="Antioquia" id="AN">Antioquia</option>
+            <option value="Amazonas" id="AM">Amazonas</option>
+            <option value="Arauca" id="AR">Arauca</option>
+            <option value="Atlantico" id="AT">Atlantico</option>
+            <option value="Bolivar" id="BO">Bolivar</option>
+            <option value="Caldas" id="CA">Caldas</option>
+            <option value="Cundinamarca" id="CU">Cundinamarca</option>
+            <option value="Santander" id="SA">Santander</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <label><b>Genero:<br></b></label>
+          <label><input type="radio" name="genero" value="maculino"> Masculino</label>
+          <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+        </div>
+        <br>
+     <!--    <div>
+          <label><b>Conocimientos<br></b></label>
+          <label><meter id="Conocimientos" value="2" max="10">2 out of 10</meter>M</label>
+        </div>
+        <br> -->
+        <div>
+          <label><b>Subir Archivos: <br><input type="file"></b></label>
+        </div>
+        <br>
+        <div>
+          <label><b>Descripcion:<br> </b><textarea></textarea></label>
+        </div>
+        <p>
+          <input class="btne" type="submit" value="Enviar">
+          <input class="btne" type="reset" value="Borrar">
+        </p>
+      </fieldset>
+    </form>
+  </div>
+  <hr>
+  <div>
+    <footer>
+      <p><b>Copyright &copy; 2021, todos los derechos reservados.</b></p>
+      <!-- Esta linea trae las imagenes-->
+      <img class="img_footer" src=" https://upload.wikimedia.org/wikipedia/commons/c/c5/Html5_dise%C3%B1o_web.png">
+      <img class="img_footer" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png">
+      <img class="img_footer"
+        src=" https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png">
+    </footer>
+  </div>
+</body>
+
+</html>

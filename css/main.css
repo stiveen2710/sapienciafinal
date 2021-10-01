@@ -1,0 +1,321 @@
+body {
+	background: url(https://i.pinimg.com/originals/53/10/ae/5310ae364e5fc686bc959696c664945d.jpg);
+	background-size:cover;
+	margin: 0;
+	
+}
+
+.header {
+	background-color: rgb(255, 255, 255);
+	color: rgb(7, 0, 0);
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	float:center;
+	padding: 20px 12px;
+	font-family:cursive;
+	font-size: 20px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.main {
+	padding-top: 12rem;
+}
+
+.menu-icon {
+	display: none;
+	padding: 1104px;
+}
+
+header a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.logo_nav_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 1rem;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.nav ul li a {
+	display: block;
+	padding: 0.5rem 5rem;
+}
+
+.nav ul li a:hover {
+	background:rgb(206, 205, 205) ;
+}
+
+.logo {
+	letter-spacing: 7px;
+	font-size: 1.3em;
+}
+
+.img_logo{
+	width: 150px;
+	height: 150px;
+}
+
+.btn {
+	position: left;
+	width:200px;
+	height:50px;
+	background-color: #369681;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 15px;
+	border-radius: 30px;
+	border-top-style: dotted;
+	font-family: cursive;
+}	
+
+
+table {
+	border: 2px dotted black;
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 80%;
+	font-family: cursive;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+	font-family: cursive;
+}
+
+thead {
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+	font-family: cursive;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+	font-family: cursive;
+}
+
+tr:hover td {
+	background-color: #369681;
+	color: white;
+	font-family: cursive;
+}
+
+/* .container{
+	position: relative;
+	width:"200px";
+	height:"200px"; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+} */
+
+/* img{
+	width:auto;
+	height:auto;
+	max-width: 200px;
+	max-height: 200px; 
+} */
+
+audio {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: blue;
+	position: static;
+	top: 30px;
+	bottom: 0;
+	padding: 5px;
+}
+
+footer {
+	height: 30px;
+	background-color: azure;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 50px;
+}
+
+.img_footer {
+	width: 100px;
+}
+ 
+ 
+p::first-letter{
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+}
+
+p {
+	align-items: center;
+	font-family: cursive;	
+}
+
+.container {
+	position: auto;
+	left: 100px;
+	width: 100%;
+	top: 150px;
+	max-width: 1800px;
+	margin: 0 auto;
+	font-family: cursive;
+}
+
+h1 {
+	font-size: 2 rem;
+	line-height: 1.3em;
+	text-align: center;
+	font-family: cursive;
+}
+
+h2:hover {
+	font-size: 12 rem;
+	line-height: 1.3em;
+	border: 3px black solid;
+	text-align: center;
+	width:270px;
+	height:35px;
+	border-radius: 10px;
+	font-family: cursive;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 30px;
+	font-family: cursive;
+}
+
+.iframepag {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	height:700px;
+	width:1330px;
+}
+
+.iframevid {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	height:500px;
+	width:1230px;
+}
+
+
+/* @media only screen and (max-width: 767px) {
+	.menu-icon{
+		display: block;
+		cursor: pointer;
+	}
+
+	.nav {
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.nav ul {
+		display: none;
+	}
+
+	.nav ul.show {
+		display: block;
+	}
+
+	.nav ul li {
+		display: inline-block;
+	}
+	
+	.nav ul li a {
+		display: block;
+		padding: 0.5rem 1rem;
+		transition: all 0.4s linear;
+		border-radius: 5px;
+	}
+	.nav ul li a:hover {
+		background: #4a4a4a4a;
+	}
+} */
+
+.img1{
+	position: auto;
+	left: 100px;
+	width: 100%;
+	top: 150px;
+	max-width: 1800px;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+/* .bloq {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: blue;
+	border-radius: 30px;
+	padding: 10px;
+	height:200px;
+	width:200px;
+} */
+
+/* .bloq1 {
+	position: relative;
+	margin-left: -100px;
+	margin-right: auto;
+	background-color: blue;
+	border-radius: 30px;
+	padding: 10px;
+	left: 50%;
+	height:200px;
+	width:200px;
+} */
+
+
+
+/* .let {
+	font-size: 20px;
+	text-align: center;
+} */
+
+
+::selection{
+	background: rgb(106, 13, 182);
+}
+
+
+li {
+	font-size: 18px;
+	}
+
+a:hover{
+		background-color: red;
+	}

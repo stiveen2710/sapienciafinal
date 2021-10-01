@@ -1,0 +1,1 @@
+//alert("El navegador interpreta el código, HTML generalmente, en el que está escrita la página web y lo presenta en pantalla permitiendo al usuario interactuar con su contenido. ")//
